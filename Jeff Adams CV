@@ -1,0 +1,317 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <style>
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700|Montserrat:400,700);
+.cv {padding:20px;}
+.cv aside {margin-bottom:60px;}
+.cv aside img {display:block;margin:0 auto;}
+.cv aside h2, .cv h1, .cv h3, .cv h4 {font-family: 'Montserrat', sans-serif;}
+.cv aside h2 {text-align:center;}
+.cv aside h2>span {color:#008998;}
+.cv aside h2:after {
+  display:block;
+  content:'{';
+  color:#008998;
+  transform:rotate(-90deg) scale(1.6, 2);
+  transform-origin: center;
+  font-size:60px;
+  font-weight:normal;
+}
+.cv aside ul.info{margin-top:30px;}
+.cv aside ul.info a {
+  color:#333;
+  font-family:'Montserrat',sans-serif;
+  margin-bottom:10px;
+  display:block;
+  letter-spacing:-0.1em;
+}
+.cv aside ul.info a:hover {text-decoration:none;}
+.cv aside ul.info a:hover i {background:#B83C26;}
+.cv aside ul.info a>i {
+  background:#008998;
+  color:#fff;
+  width:35px;
+  height:35px;
+  border-radius:35px;
+  text-align:center;
+  line-height:35px;
+  margin-right:15px;
+  -webkit-transition:all 200ms linear;
+  -moz-transition:all 200ms linear;
+  -o-transition:all 200ms linear;
+  transition:all 200ms linear;
+}
+.cv section {margin-bottom:30px;}
+.cv p {font-family:'Open Sans',sans-serif;}
+.cv h1, .cv h3, .cv h4 {
+  text-transform:uppercase;
+  font-weight:bold;
+}
+.cv h1:nth-child(1){margin-top:0;}
+.cv h1 {margin:60px 0 30px 0;}
+.cv h3 {font-size:18px;line-height:22px;}
+.cv h4 {font-size:14px;line-height:14px;}
+.cv .skills section {overflow:auto;margin-bottom:0;}
+.cv .skills section p {
+  float:left;
+  max-width:50%;
+  word-break:break-word;
+}
+.cv .skills section span {
+  display:inline-block;
+  width:15px;
+  height:15px;
+  background:#bbb;
+  border-radius:15px;
+  float:right;
+  margin:0 1px;
+}
+.cv .skills section span.full {background:#008998;}
+
+/* for iframes */
+ .projects-wrapper {
+        max-width: 1280px;
+        position: relative;
+        margin: 0 auto;
+        border: 0px solid pink;
+        border: 0px solid black;
+   
+    }
+
+    .proj-box-format {
+        float: left;
+        height: 400px;
+        width: 45%;
+        border: 2px groove pink;
+        margin: 10px;
+        
+    }
+
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    .clearfix:before,
+    .clearfix:after {
+        content: " "; /* 1 */
+        display: table; /* 2 */
+    }
+  </style>
+</head>
+
+<div class="cv container">
+  <div class="row">
+    <aside class="col-md-4">
+      <img class="img-circle" src="https://assets.codepen.io/781353/IMG_Jeff_Adams.jpg" />
+      <h2><span>Jeff</span> Adams</h2>
+      <p>I am Jeff Adams a full-stack developer with 5+ years experience in the field.</p>
+      <p>My work has included freelance and building custom sites as well as working with a team in deployment of both web and native applications.</p>
+      <p>I worked previously as a counselor and coach helping people solve their problems. Now I do the same thing but from a technological perspective. </p>
+      <ul class="info">
+        <li><a href="https://codepen.io/rebelscum"><i class="fa fa-codepen"></i>codepen.io/rebelscum</a></li>
+        <li><a href="#"><i class="fa fa-envelope"></i>jsmada23@gmail.com</a></li>
+        
+      </ul>
+    </aside>
+    <div class="col-md-8">
+      <h1>Abilities</h1>
+      <div class="row skills">
+        <div class="col-md-4">
+          <section>
+            <p>HTML5</p>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+          </section>
+          <section>
+            <p>CSS3</p>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+          </section>
+          <section>
+            <p>PHP</p>
+            <span></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+          </section>
+          <section>
+            <p>Photoshop</p>
+            
+            <span></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+          </section>
+          <section>
+            <p>Power BI</p>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+          </section>
+          <section>
+            <p>Bootstrap</p>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+          </section>
+        </div>
+        <div class="col-md-4">
+          <section>
+            <p>WordPress</p>
+            <span></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+          </section>
+          <section>
+            <p>Showpad</p>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+          </section>
+          <section>
+            <p>Javascript</p>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+          </section>
+          <section>
+            <p>Illustrator</p>
+            <span></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+          </section>
+          <section>
+            <p>Python</p>
+            <span></span>
+            <span></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            
+          </section>
+          <section>
+            <p>SQL</p>
+            <span></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+          </section>
+        </div>
+        <div class="col-md-4">
+          <section>            
+            <p>Orange</p>
+            <span></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+          </section>
+          <section>          
+            <p>Node</p>
+            <span></span>
+            <span></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+          </section>
+          <section>        
+            <p>C#</p>
+            <span></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+          </section>
+          <section>        
+            <p>JQuery</p>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+          </section>
+          <section>          
+            <p>React</p>
+            <span></span>
+            <span></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+          </section>
+          <section>            
+            <p>Ajax/JSON</p>
+            <span></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+            <span class="full"></span>
+          </section>
+        </div>
+      </div>
+      <h1>Experience</h1>
+      <section>
+        <h3>Full-Time</h3>
+        <h4>Developer</h4>
+        <p>Full-stack development for Sealed Air. Specifically with regard to their Sales Training. Established database and built several applications to track and display stats and training needs within the organization. User management on different platforms as well as assuring the best possible user experience.</p>
+        <p>Also worked extensively on integration of software and applications into different platforms. Familiar with user and platform management as well as developing content for training.</p>
+      </section>
+      
+      <section>
+        <h3>Freelance</h3>
+        <h4>Atoms Web Development (2014)</h4>
+        <p>Designed, built and deployed sites for several clients. Have built e-commerce sites for clients including payment procedures and product management. Photography sites, restaurants independent businesses were most of my clients and also businesses wanting to capitalize on SaaS.</p>
+      </section>
+     
+      
+    </div>
+  </div>
+</div>
+<div> 
+    <h2 class="text-center pad-section">Some of my projects</h2>  
+    <div class="projects-wrapper">
+
+    <div class="proj-box-format">
+        <iframe id="scaled-frame"  src="https://sales-academy-host.s3.amazonaws.com/Jfiles/Sites/DeLIGHTful+Furnishings/index.html" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen align="middle" seamless></iframe>
+    </div>
+    <div class="proj-box-format">
+        <iframe src="https://sales-academy-host.s3.amazonaws.com/Jfiles/Sites/Teddy's/index.html" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen align="middle" seamless></iframe>
+    </div>
+    
+
+      <div class="proj-box-format">
+        <iframe src="https://s3.amazonaws.com/sales-academy-host/Jfiles/HTML/Sustainability.html" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen align="middle" seamless></iframe>
+    </div>
+    
+    <div class="proj-box-format">
+        <iframe src="https://sales-academy-host.s3.amazonaws.com/Jfiles/HTML/Jeff's+HTML/Unicorn.html" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen align="middle" seamless></iframe>
+    </div>
+  
+   
+</div>
+    
+    
+    
+  </div>
